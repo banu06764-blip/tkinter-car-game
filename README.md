@@ -21,7 +21,7 @@ High Score Tracking: Highest score is saved in highscore.csv.
 
 Game Over Screen: Background turns white and displays Game Over.
 
-
+Level difficulties increases for each set of score.
 
 ---
 
@@ -99,9 +99,6 @@ The highest score is stored in highscore.csv and updated automatically.
 ---
 
 ⚡ Future Improvements
-
-Add difficulty increase with time (faster enemies).
-
 Add background music or sound effects.
 
 Add a restart option without closing the program.
