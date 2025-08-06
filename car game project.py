@@ -33,7 +33,7 @@ player = canvas.create_image(540, 2096, image=timg)
 enemy_img = Image.open("/storage/emulated/0/Download/jpg2png (1)/20250805_204937.png")
 enemy_img = enemy_img.resize((100, 200))
 
-lanes = [300, 540, 780]
+lanes = [300, 540, 780,900,150]
 start_y = [0, 500, 1000]
 enemy_ids = []
 enemy_images = []
