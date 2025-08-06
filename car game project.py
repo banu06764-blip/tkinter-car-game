@@ -63,6 +63,7 @@ root.bind('<Right>', right)
 
 def move_enemies():
     global running
+    global score
     if not running:
         return
     for enemy in enemy_ids:
@@ -73,7 +74,8 @@ def move_enemies():
             newlanes = random.choice(lanes)
             canvas.coords(enemy, newlanes, -100)
     collision()
-    root.after(50, move_enemies)
+    delay = max(10, 50-(5*(score//10)))
+    root.after(delay, move_enemies)
 
 def save_highscore():
     with open("highscore.csv", "w", newline="") as file:
