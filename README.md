@@ -103,8 +103,6 @@ Add background music or sound effects.
 
 Add a restart option without closing the program.
 
-Display the final score in the game-over screen.
-
 
 
 ---
