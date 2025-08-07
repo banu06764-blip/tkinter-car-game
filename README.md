@@ -28,7 +28,7 @@ Level difficulties increases for each set of score.
 📂 Project Structure
 
 .
-├── main.py               # Main game file (your code)
+├── main.py               # Main game file 
 ├── highscore.csv         # Stores the highest score
 ├── assets/
 │   ├── Racetrack.png      # Background image
