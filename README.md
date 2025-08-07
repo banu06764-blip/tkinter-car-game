@@ -81,7 +81,7 @@ pip install pillow
 
 4. Run the Python file:
 
-car game project.py
+python main.py
 
 
 
